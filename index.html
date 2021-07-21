@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Metas -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!-- Meu CSS -->
+<link rel="stylesheet" href="style.css">
+<!-- Ícones -->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Projeto bootstrap</title>
+</head>
+
+<body>
+    <header> <div class="container" id="nav-container">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a href="#" class="navbar-brand">
+                WindFlower
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                <div class="navbar-link">
+                    <a href="nav-item-nav-link" id="home-menu">Home</a>
+                    <a href="#about-menu" id="about-menu-link">Quem somos?</a>
+                    <a href="nav-item-nav-link" id="services-menu">Serviços</a>
+                    <a href="nav-item-nav-link" id="team-menu">Time</a>
+                    <a href="nav-item-nav-link" id="portfolio-menu">Projetos</a>
+                    <a href="nav-item-nav-link" id="contact-menu">Contato</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<main>
+  <div id="mainSlider" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+      <li data-target="#mainSlider" data-slide-to="1"></li>
+      <li data-target="#mainSlider" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="susan-wilkinson-urObNSjeBCc-unsplash.jpg" class="d-block w-100" alt="Projetos de e-commerce">
+
+        <!-- tirar classe d-none -->
+
+        <div class="carousel-caption d-md-block">
+          <h2>Fashion fades, only style remains</h2>
+          <p>Luxury must be comfortable, otherwise it is not luxury.</p>
+          <a href="#" class="btn btn-light">Conheça a empresa</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="ian-keefe-zeh5pg_7H1g-unsplash (1).jpg" class="d-block w-100" alt="Engenharia de software">
+        <div class="carousel-caption d-md-block">
+          <h2>You can only go forward by making mistakes</h2>
+          <p>I never look at other people's work. My mind has to be completely focused on my own illusions.</p>
+          <a href="#" class="btn btn-light">Entre em contato</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="aromateec-EMzhgIxjPgI-unsplash.jpg" class="d-block w-100" alt="Manutenção em software">
+        <div class="carousel-caption d-md-block">
+          <h2 >I like the irony in my work</h2>
+          <p>I always loved aesthetics. Not particularly fashion, but an idea of beauty.</p>
+          <a href="#" class="btn btn-light">Entre em contato</a>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+ <div class="about mb-3" id="#about-menu">
+    <div class="left py-3 text-light">
+    <h2>Sobre</h2>
+    <p>I'm used to always deciding everything myself. It's a blessing, but also a terrible defect. Fashion never stops. There is always the new project, the new opportunity. I'd like to believe that the women who wear my clothes are not dressing for other people, that they're wearing what they like and what suits them. It's not a status thing. I feel that things happen for a reason and open up new opportunities. Delete the negative; accentuate the positive!</p>
+      <p>I love my beauty. It's not my fault. Go to a place where you're not going to be stressed, because a honeymoon itself can be a stressful thing. I sometimes feel that a pattern is almost a fashion statement in itself. Men have got more of a discerning eye. They appreciate cut and details, things that aren't so obvious. They like things that have cachet and gentlemanliness. Fashion to me has become very disposable; I wanted to get back to craft, to clothes that could last.</p>
+  </div>
+  <div class="right">
+    <div class="row w-100 first">
+    <div class="qualidade"><h3 class="palavra1 text-light">Qualidade</h3></div>
+    <div class="qualidade"><h3 class="palavra2 text-light">Confiança</h3></div>
+    <div class="qualidade"><h3 class="palavra3 text-light">Inovação</h3></div>
+    </div>
+    <div class="row w-100">
+    <div class="rounded img-1"></div>
+    <div class="rounded img-2"></div>
+    <div class="rounded img-3"></div>
+   
+    </div> 
+   
+    </div>
+  </div>
+ </div>
+
+
+ <div id="contato" class="mb-3">
+  <div class="container py-3 bg-primary"> 
+    <h2>Contato</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome...">
+        
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Digite seu email...">
+        
+      </div>
+      <div class="mb-3">
+        <label for="texto" class="form-label">Sua Mensagem: </label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="Check">
+        <label class="form-check-label" for="Check">Notifique-me</label>
+      </div>
+      <button type="submit" class="btn btn-block btn-tam text-light" id="submitBtn">Submit</button>
+    </form>
+  </div>
+
+
+</div>
+
+</main>
+
+
+
+<footer class="w-100 text-center bg-dark text-light py-5">
+ WindFlower &copy; All Rights Reserved
+</footer>
+
+
+ <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Launch static backdrop modal
+                      </button> -->
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+
+<!-- SCRIPTS -->
+
+<script src="hover-functions.js"></script>
+
+<!-- Jquery -->
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+<!-- Progress Bar -->
+<script src="js/progressbar.min.js"></script>
+<!-- Parallax -->
+<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+<script src="app.js"></script>
+</html>
